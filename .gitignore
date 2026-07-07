@@ -4,6 +4,9 @@
 *.parquet
 src/data/
 
+# Excepción: dataset de muestra sí se versiona
+!src/data_sample/*.csv
+
 # Entornos y caché
 __pycache__/
 .ipynb_checkpoints/
