@@ -1,0 +1,16 @@
+# Datos pesados (solo sube data_sample/)
+*.csv
+*.xlsx
+*.parquet
+src/data/
+
+# Entornos y caché
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+venv/
+.venv/
+
+# Vídeo (se entrega por Campus Virtual, no repo)
+*.mp4
