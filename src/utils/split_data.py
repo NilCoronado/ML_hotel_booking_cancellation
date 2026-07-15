@@ -2,6 +2,12 @@
 Split conjunto train/test del dataset hotel_bookings.
 Random_state y test_size fijados en equipo para que EDA (Persona A)
 y modelado (Persona B) trabajen sobre el mismo split.
+
+Nota: el CSV bruto no se versiona en el repo (para respetar el limite de
+100MB en src/data_sample/). Descargar manualmente desde
+https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+y colocarlo en DATA_PATH antes de ejecutar este script. train.csv y
+test.csv (ya generados) si estan versionados.
 """
 
 import pandas as pd
